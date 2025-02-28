@@ -1,107 +1,82 @@
-::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
+/* Global Styles */
 body {
-  background-color: rgb(37, 35, 35);
-  user-select: none;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
-.header {
-  color: white;
-  font-size: 50px;
-  text-indent: 120px;
-  font-family: sans-serif;
-  position: relative;
-  top: 7vh;
-  font-weight: bold;
-  text-shadow: 4px 4px purple;
-}
+
+/* Login Container */
 .logincontainer {
-  border: 1px solid lightgrey;
-  border-radius: 30px;
-  width: 400px;
-  height: 550px;
-  position: relative;
-  top: 6vh;
-  left: 30vw;
-  box-shadow: 0 0 70px purple, 0 0 70px lime, 0 0 70px cyan;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
 }
-.username {
-  width: 350px;
-  height: 65px;
-  border: none;
-  border-radius: 5px;
-  background: linear-gradient(210deg, lime, cyan);
-  position: relative;
-  top: 5pc;
-  left: 1.3pc;
-  text-indent: 50px;
-  font-size: 20px;
-  font-family: sans-serif;
-  transition: 0.5s;
+
+/* Header Styling */
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
 }
-.username:hover {
-  box-shadow: 0 0 0 limegreen, 0 0 70px cyan, 0 0 70px lime;
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
-.password {
-  width: 350px;
-  height: 65px;
-  border: none;
-  border-radius: 5px;
-  background: linear-gradient(210deg, lime, cyan);
-  position: relative;
-  top: 8pc;
-  left: 1.3pc;
-  text-indent: 50px;
-  font-size: 20px;
-  font-family: sans-serif;
-  transition: 0.5s;
-}
-.password:hover {
-  box-shadow: 0 0 0 limegreen, 0 0 70px cyan, 0 0 70px lime;
-}
+
+/* Button Styling */
 button {
-  width: 300px;
-  height: 100px;
-  border: none;
-  font-size: 30px;
-  font-weight: 800;
-  font-family: sans-serif;
-  color: white;
-  text-shadow: 2px 2px 2px red;
-  background: linear-gradient(to left, lime, cyan);
-  box-shadow: 0 0 0px lime, 0 0 10px cyan, 0 0 70px lime;
-  border-radius: 50px;
-  position: relative;
-  top: 24vh;
-  left: 48px;
-  cursor: pointer;
-  transition: 0.5s;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    margin-top: 10px;
+    width: 100%;
 }
+
 button:hover {
-  box-shadow: 0 0 70px lime, 0 0 70px cyan, 0 0 70px lime;
+    background-color: #0056b3;
+    transform: translateY(-2px);
 }
-p {
-  font-size: 15px;
-  color: white;
-  font-weight: lighter;
-  font-family: sans-serif;
-  position: relative;
-  top: 30vh;
-  left: 2vw;
-}
+
+/* Links */
 a {
-  color: cyan;
-  text-decoration: none;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
 }
+
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-.forgotpasswordword {
-  font-size: 15px;
-  font-weight: lighter;
-  font-family: sans-serif;
-  position: relative;
-  top: 166px;
-  left: 26vw;
+
+/* Paragraph */
+p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 15px;
 }
